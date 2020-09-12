@@ -1,3 +1,3 @@
 # Примеры кода:
 
-[https://github.com/Egorius1979/Layout] ("Немного вёрстки 1") - чистые HTML + CSS
+[Вёрстка 1] (https://github.com/Egorius1979/Layout "go go!") - чистые HTML + CSS
