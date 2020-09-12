@@ -1,7 +1,18 @@
+@font-face {
+  font-family: "Cirqua-Regular";
+  src: url("./fonts/Cirqua-Regular.eot");
+  src: url("./fonts/Cirqua-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Cirqua-Regular.woff") format("woff"),
+    url("./fonts/Cirqua-Regular.ttf") format("truetype"),
+    url("./fonts/Cirqua-Regular.svg#Cirqua-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   color: #fff;
-  font-family: "AGBengaly", arial;
+  font-family: "Cirqua-Regular";
   font-weight: normal;
 }
 
