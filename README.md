@@ -2,7 +2,7 @@
 
 [Вёрстка 1](https://egorius1979.github.io/HTML+CSS/ "папка `HTML+CSS`") - чистые HTML + CSS
 
-## 2. Примеры JavaScript/React/Redux/D3:
+## 2. Примеры JavaScript и всего остального:
 
 [Node/React/Redux/D3/REST API](https://github.com/Egorius1979/cryptoinfo) - небольшое SPA, реализованное на взаимодействии с `coinmarketcap AP`.
 
