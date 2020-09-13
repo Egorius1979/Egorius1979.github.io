@@ -4,7 +4,7 @@
 
 ## 2. Примеры JavaScript и всего остального:
 
-[Node/React/Redux/D3/REST API](https://github.com/Egorius1979/cryptoinfo) - небольшое SPA, реализованное на взаимодействии с `coinmarketcap AP`.
+[Node/React/Redux/D3/REST API](https://github.com/Egorius1979/cryptoinfo) - небольшое SPA, реализованное на взаимодействии с `coinmarketcap API`.
 
 [Node/React/Redux/REST API](https://github.com/Egorius1979/React-e-commerce) - базовый набор логики(ну, я так думаю, по крайней мере) интернет-магазина, более детальное описание в самом репозитории.
 
