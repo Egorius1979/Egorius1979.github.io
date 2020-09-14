@@ -180,5 +180,5 @@ a {
 
 .item:hover {
   border-color: #76c38f;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
