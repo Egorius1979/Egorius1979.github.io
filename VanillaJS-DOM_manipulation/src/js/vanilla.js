@@ -1,3 +1,5 @@
+let mainCount = 0;
+
 setTimeout(() => {
   const modernist = document.getElementById("modernist");
   modernist.textContent = "What's up, Doc?";
@@ -13,10 +15,36 @@ const hiddenElement = (e) => {
   }
 };
 
+const phrase = () => {
+  const curcus = document.querySelector(".curcus");
+  mainCount += 1;
+  console.log(mainCount);
+  if (mainCount === 1) {
+    curcus.style.fontSize = "26px";
+    curcus.textContent =
+      "По-моему, вам крайне необходимо взять меня на работу, ребята!";
+    curcus.style.color = "#ADFF2F";
+  }
+  if (mainCount === 2) {
+    curcus.style.fontSize = "26px";
+    curcus.textContent =
+      "Ну хватит, хватит, я согласен, но есть несколько условий!";
+    curcus.style.color = "#7FFFD4";
+  }
+  if (mainCount >= 3) {
+    curcus.style.fontSize = "32px";
+    curcus.textContent = "Всё, договорились, где расписаться?!";
+    curcus.style.color = "#FF8C00";
+    menuArr.forEach((item) =>
+      item.removeEventListener("mouseover", hiddenElement)
+    );
+  }
+};
+
 const mainFunction = () => {
   const curcus = document.querySelector(".curcus");
   const image = document.getElementById("counter");
-  let counter = 6;
+  let counter = 4;
 
   image.children[0].remove();
   curcus.textContent = "меню появится через:";
@@ -33,15 +61,12 @@ const mainFunction = () => {
   setTimeout(() => {
     clearInterval(stopInterval);
     menuArr.map((it) => (it.style.visibility = ""));
-    curcus.style.fontSize = "26px";
-    curcus.textContent =
-      "По-моему, вам крайне необходимо взять меня на работу, ребята!";
-    curcus.style.color = "#FF8C00";
+    phrase();
     image.removeAttribute("style");
     image.textContent = "";
     const img = document.createElement("IMG");
     image.appendChild(img).setAttribute("src", "img/png1.png");
-  }, 6000);
+  }, 4000);
 };
 
 const menuArr = Array.from(document.querySelector(".menu").children);
