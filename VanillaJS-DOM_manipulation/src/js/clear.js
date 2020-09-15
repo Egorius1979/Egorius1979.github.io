@@ -33,9 +33,9 @@ const mainFunction = () => {
   setTimeout(() => {
     clearInterval(stopInterval);
     menuArr.map((it) => (it.style.visibility = ""));
-    curcus.style.fontSize = "20px";
+    curcus.style.fontSize = "26px";
     curcus.textContent =
-      "По-моему, вам прям необходимо взять меня на работу, ребята!";
+      "По-моему, вам крайне необходимо взять меня на работу, ребята!";
     curcus.style.color = "#FF8C00";
     image.removeAttribute("style");
     image.textContent = "";
