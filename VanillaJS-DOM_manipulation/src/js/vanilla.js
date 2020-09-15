@@ -32,7 +32,7 @@ const phrase = () => {
   }
   if (mainCount === 3) {
     curcus.style.fontSize = "32px";
-    curcus.textContent = "Всё, договорились, где расписаться?!";
+    curcus.textContent = "Всё, договорились, когда приступаю?!";
     curcus.style.color = "#FF8C00";
     menuArr.forEach((item) =>
       item.removeEventListener("mouseover", hiddenElement)
