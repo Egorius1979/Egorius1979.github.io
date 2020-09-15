@@ -18,7 +18,6 @@ const hiddenElement = (e) => {
 const phrase = () => {
   const curcus = document.querySelector(".curcus");
   mainCount += 1;
-  console.log(mainCount);
   if (mainCount === 1) {
     curcus.style.fontSize = "26px";
     curcus.textContent =
@@ -31,7 +30,7 @@ const phrase = () => {
       "Ну хватит, хватит, я согласен, но есть несколько условий!";
     curcus.style.color = "#7FFFD4";
   }
-  if (mainCount >= 3) {
+  if (mainCount === 3) {
     curcus.style.fontSize = "32px";
     curcus.textContent = "Всё, договорились, где расписаться?!";
     curcus.style.color = "#FF8C00";
