@@ -21,7 +21,7 @@ const phrase = () => {
   if (mainCount === 1) {
     curcus.style.fontSize = "26px";
     curcus.textContent =
-      "По-моему, вам крайне необходимо взять меня на работу, ребята!";
+      "По-моему, вам просто необходимо взять меня на работу, ребята!";
     curcus.style.color = "#ADFF2F";
   }
   if (mainCount === 2) {
@@ -32,7 +32,7 @@ const phrase = () => {
   }
   if (mainCount === 3) {
     curcus.style.fontSize = "32px";
-    curcus.textContent = "Всё, договорились, когда приступаю?!";
+    curcus.textContent = "Всё, договорились, когда приступать?!";
     curcus.style.color = "#FF8C00";
     menuArr.forEach((item) =>
       item.removeEventListener("mouseover", hiddenElement)
