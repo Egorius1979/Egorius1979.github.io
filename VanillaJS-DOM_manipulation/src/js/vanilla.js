@@ -26,8 +26,7 @@ const phrase = () => {
   }
   if (mainCount === 2) {
     curcus.style.fontSize = "26px";
-    curcus.textContent =
-      "Ну хватит, хватит, я согласен, но есть несколько условий!";
+    curcus.textContent = "Ну хватит, хватит, может лучше обсудим зарплату?!";
     curcus.style.color = "#7FFFD4";
   }
   if (mainCount === 3) {
