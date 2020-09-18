@@ -8,7 +8,7 @@
 
 [Вёрстка 2](https://egorius1979.github.io/HTML+LESS/ "папка `HTML+LESS`") - тот же самый шаблон, за исключением реализованных через препроцессор LESS стилей.
 
-## 3. Примеры всего остального в стеке:
+## 3. Примеры SPA в связке ReactJS + Redux (и других технологий по мере необходимости):
 
 [Node/React/Redux/D3/REST API/TailwindCSS](https://github.com/Egorius1979/cryptoinfo) - небольшое SPA, реализованное на взаимодействии с `coinmarketcap API`.
 
