@@ -1,6 +1,6 @@
 ## 1. Пример манипуляции DOM-объектами чистым JS(VanillaJS):
 
-[DOM+VanillaJS](https://egorius1979.github.io/VanillaJS-DOM_manipulation/src/ "папка `VanillaJS-DOM_manipulation`") - все манипуляции с объктами только в header, для раскрытия всей "магии" необходимо "пройтись" мышкой по всем пунктам меню (можно и нужно повторить для прохождения этого квеста полностью).
+[DOM+VanillaJS](https://egorius1979.github.io/VanillaJS-DOM_manipulation/src/ "папка `VanillaJS-DOM_manipulation`") - все манипуляции с объктами только в header, для раскрытия всей "магии" необходимо "пройтись" мышкой по всем пунктам меню (повторить пару раз для прохождения "квеста" полностью).
 
 ## 2. Примеры вёрстки:
 
