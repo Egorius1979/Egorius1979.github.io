@@ -17,22 +17,29 @@ const hiddenElement = (e) => {
 
 const phrase = () => {
   const curcus = document.querySelector(".curcus");
+  const image = document.getElementById("counter");
+  image.removeAttribute("style");
+  image.textContent = "";
+  const img = document.createElement("IMG");
   mainCount += 1;
   if (mainCount === 1) {
     curcus.style.fontSize = "26px";
     curcus.textContent =
       "По-моему, вам просто необходимо взять меня на работу, ребята!";
     curcus.style.color = "#ADFF2F";
+    image.appendChild(img).setAttribute("src", "img/punk1.png");
   }
   if (mainCount === 2) {
     curcus.style.fontSize = "26px";
     curcus.textContent = "Ну хватит, хватит, может лучше обсудим зарплату?!";
     curcus.style.color = "#7FFFD4";
+    image.appendChild(img).setAttribute("src", "img/punk2.png");
   }
   if (mainCount === 3) {
     curcus.style.fontSize = "32px";
     curcus.textContent = "Всё, договорились, когда приступать?!";
     curcus.style.color = "#FF8C00";
+    image.appendChild(img).setAttribute("src", "img/punk3.png");
     menuArr.forEach((item) =>
       item.removeEventListener("mouseover", hiddenElement)
     );
@@ -60,10 +67,6 @@ const mainFunction = () => {
     clearInterval(stopInterval);
     menuArr.map((it) => (it.style.visibility = ""));
     phrase();
-    image.removeAttribute("style");
-    image.textContent = "";
-    const img = document.createElement("IMG");
-    image.appendChild(img).setAttribute("src", "img/png1.png");
   }, 4000);
 };
 
