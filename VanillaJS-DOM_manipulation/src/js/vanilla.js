@@ -55,7 +55,7 @@ const mainFunction = () => {
   curcus.textContent = "меню появится через:";
   curcus.style.color = "#FFF";
   curcus.style.fontSize = "38px";
-  image.style.width = "380px";
+  image.style.width = "430px";
   image.style.textAlign = "center";
   image.style.fontSize = "50px";
 
