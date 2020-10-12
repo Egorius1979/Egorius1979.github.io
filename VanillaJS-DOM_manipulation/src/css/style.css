@@ -25,15 +25,15 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 960px;
+header {
+  width: 1200px;
+  height: 600px;
+  background-color: #290000;
   margin: auto;
 }
 
-.header {
-  width: 1200px;
-  height: 1600px;
-  background-color: #290000;
+.container {
+  width: 960px;
   margin: auto;
 }
 
@@ -108,7 +108,9 @@ a {
 }
 
 .main-body {
+  width: 1200px;
   height: 995px;
+  margin: auto;
   background-color: #600;
   padding-top: 60px;
 }
