@@ -3,26 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Макет</title>
+    <title>DOM</title>
     <link rel="stylesheet" href="css/resetcss.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="header">
+    <header>
       <div class="top-border"></div>
       <div class="logo-menu">
         <h1>
-          <span>The Modernist</span>
+          <span id="modernist">The Modernist</span>
           Free PSD Website Template
         </h1>
       </div>
       <nav class="menu">
-        <a href="">HOME</a>
-        <a href="">STYLE DEMO</a>
-        <a href="">FULL WIDTH</a>
-        <a href="">DROPDOWN</a>
-        <a href="">PORTFOLIO</a>
-        <a href="">GALLERY</a>
+        <a href="#">HOME</a>
+        <a href="#">STYLE DEMO</a>
+        <a href="#">FULL WIDTH</a>
+        <a href="#">DROPDOWN</a>
+        <a href="#">PORTFOLIO</a>
+        <a href="#">GALLERY</a>
       </nav>
       <div class="container slider">
         <a href="#"
@@ -38,58 +38,50 @@
           </p>
           <button type="button">Read More Here »</button>
         </div>
-        <img src="img/Ellipse1+2.png" alt="ellipse" />
+        <div id="counter">
+          <img id="image" src="img/Ellipse1+2.png" alt="ellipse" />
+        </div>
         <a href="#"><img src="img/Right arrow.png" alt="right-arrow" /></a>
       </div>
+    </header>
+    <main>
       <div class="main-body">
         <div class="container">
           <div class="cards-1">
-            <a href="">
+            <a href="#">
               <span class="card">
                 <img src="img/120px_black.png" alt="first-card" />
-                <h2>
-                  SERVICE <br />
-                  TITLE
-                </h2>
+                <h2>SERVICE TITLE</h2>
                 <p>
                   Vestassapede et donec ut est libe ros sus et eget sed eget
                   quisq ueta habitur augue
                 </p>
               </span>
             </a>
-            <a href="">
+            <a href="#">
               <span class="card">
                 <img src="img/120px_black.png" alt="second-card" />
-                <h2>
-                  SERVICE <br />
-                  TITLE
-                </h2>
+                <h2>SERVICE TITLE</h2>
                 <p>
                   Vestassapede et donec ut est libe ros sus et eget sed eget
                   quisq ueta habitur augue
                 </p>
               </span>
             </a>
-            <a href="">
+            <a href="#">
               <span class="card">
                 <img src="img/120px_black.png" alt="third-card" />
-                <h2>
-                  SERVICE <br />
-                  TITLE
-                </h2>
+                <h2>SERVICE TITLE</h2>
                 <p>
                   Vestassapede et donec ut est libe ros sus et eget sed eget
                   quisq ueta habitur augue
                 </p>
               </span>
             </a>
-            <a href="">
+            <a href="#">
               <span class="card">
                 <img src="img/120px_black.png" alt="fourth-card" />
-                <h2>
-                  SERVICE <br />
-                  TITLE
-                </h2>
+                <h2>SERVICE TITLE</h2>
                 <p>
                   Vestassapede et donec ut est libe ros sus et eget sed eget
                   quisq ueta habitur augue
@@ -101,37 +93,37 @@
             <img src="img/LATEST WORK.png" alt="latest work" />
           </div>
           <div class="latest-work_items">
-            <a href="">
+            <a href="#">
               <span class="item">
                 <img src="img/item.png" alt="1" />
                 <span>LOREM IPSUM DOLOR</span>
               </span>
             </a>
-            <a href="">
+            <a href="#">
               <span class="item">
                 <img src="img/item.png" alt="2" />
                 <span>LOREM IPSUM DOLOR</span>
               </span>
             </a>
-            <a href="">
+            <a href="#">
               <span class="item">
                 <img src="img/item.png" alt="3" />
                 <span>LOREM IPSUM DOLOR</span>
               </span>
             </a>
-            <a href="">
+            <a href="#">
               <span class="item">
                 <img src="img/item.png" alt="4" />
                 <span>LOREM IPSUM DOLOR</span>
               </span>
             </a>
-            <a href="">
+            <a href="#">
               <span class="item">
                 <img src="img/item.png" alt="5" />
                 <span>LOREM IPSUM DOLOR</span>
               </span>
             </a>
-            <a href="">
+            <a href="#">
               <span class="item">
                 <img src="img/item.png" alt="6" />
                 <span>LOREM IPSUM DOLOR</span>
@@ -140,6 +132,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </main>
+    <script src="./js/vanilla.js"></script>
   </body>
 </html>
