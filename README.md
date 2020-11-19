@@ -2,15 +2,9 @@
 
 [DOM+VanillaJS](https://egorius1979.github.io/VanillaJS-DOM_manipulation/src/ 'папка `VanillaJS-DOM_manipulation`') - все манипуляции с объктами только в header, для раскрытия всей "магии" необходимо "пройтись" мышкой по всем пунктам меню (повторить пару раз для прохождения "квеста" полностью).
 
-## 2. Примеры вёрстки:
+## 2. Примеры React-приложений в связке с Redux (и другими технологиями по мере необходимости):
 
-[Вёрстка 1](https://egorius1979.github.io/HTML+CSS/ 'папка `HTML+CSS`') - свёрстанный с PSD макета шаблон главной страницы сайта (без footer). чистые HTML + CSS, единственное - заменил шрифт на другой. Оригинал PSD макета в папке "img" проекта.
-
-[Вёрстка 2](https://egorius1979.github.io/HTML+LESS/ 'папка `HTML+LESS`') - тот же самый шаблон, за исключением реализованных через препроцессор LESS стилей.
-
-## 3. Примеры ReactJS приложений в связке с Redux (и другими технологиями по мере необходимости):
-
-[React/Redux/REST API](https://github.com/Egorius1979/Pokemons-app-1) - старые-добрые покемонычи
+[React/Redux/Redux Toolkit/REST API](https://github.com/Egorius1979/Pokemons-app-1) - старые-добрые покемонычи.
 
 [Node/React/Redux/D3/REST API/TailwindCSS](https://github.com/Egorius1979/cryptoinfo) - небольшое SPA по криптовалютам, реализованное на взаимодействии с `coinmarketcap API`.
 
