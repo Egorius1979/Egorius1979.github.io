@@ -8,4 +8,4 @@
 
 [Node/React/Redux/D3/REST API/TailwindCSS](https://github.com/Egorius1979/cryptoinfo) - небольшое SPA по криптовалютам, реализованное на взаимодействии с `coinmarketcap API`.
 
-[React/Redux/TailwindCSS](https://github.com/Egorius1979/game-react-redux) - небольшая игрушка, можно было (и даже нужно было) обойтись только лишь хуками, но захотелось для закрепления материала попробовать сделать с использованием редакса и чуть более активно пошуршать извилинами.
+[React/Redux/TailwindCSS](https://github.com/Egorius1979/game-react-redux) - небольшая игрушка на реакцию и мелкую моторику.
