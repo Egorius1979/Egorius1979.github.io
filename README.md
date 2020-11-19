@@ -4,7 +4,7 @@
 
 ## 2. Примеры React-приложений в связке с Redux (и другими технологиями по мере необходимости):
 
-[React/Redux/Redux Toolkit/REST API](https://github.com/Egorius1979/Pokemons-app-1) - старые-добрые покемонычи.
+[React/Redux/Redux Toolkit](https://github.com/Egorius1979/Pokemons-app-1) - старые-добрые покемонычи.
 
 [Node/React/Redux/D3/REST API/TailwindCSS](https://github.com/Egorius1979/cryptoinfo) - небольшое SPA по криптовалютам, реализованное на взаимодействии с `coinmarketcap API`.
 
